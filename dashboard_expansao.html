@@ -863,14 +863,14 @@ body { background: var(--bg); color: var(--txt); }
   <div class="filters-inner">
     <span class="f-label">Período</span>
     <div class="f-shortcuts">
-      <button class="btn-sh" id="fc-7d"  onclick="setShortcut('7d',this)">Últimos 7 dias</button>
-      <button class="btn-sh" id="fc-15d" onclick="setShortcut('15d',this)">Últimos 15 dias</button>
-      <button class="btn-sh" id="fc-30d" onclick="setShortcut('30d',this)">Últimos 30 dias</button>
+      <button class="btn-sh" id="fc-mes"     onclick="setShortcut('thismonth',this)">Mês atual</button>
+      <button class="btn-sh" id="fc-mes-ant" onclick="setShortcut('lastmonth',this)">Mês anterior</button>
     </div>
     <div class="f-sep"></div>
     <div class="f-shortcuts">
-      <button class="btn-sh" id="fc-mes"     onclick="setShortcut('thismonth',this)">Mês atual</button>
-      <button class="btn-sh" id="fc-mes-ant" onclick="setShortcut('lastmonth',this)">Mês anterior</button>
+      <button class="btn-sh" id="fc-7d"  onclick="setShortcut('7d',this)">Últimos 7 dias</button>
+      <button class="btn-sh" id="fc-15d" onclick="setShortcut('15d',this)">Últimos 15 dias</button>
+      <button class="btn-sh" id="fc-30d" onclick="setShortcut('30d',this)">Últimos 30 dias</button>
     </div>
     <div class="f-sep"></div>
     <div class="f-shortcuts">
@@ -1219,7 +1219,7 @@ function setShortcut(type, el) {
   }
 
   filtroDe = f; filtroAte = t;
-  document.getElementById('f-range').textContent = f ? fmtTagPeriodo(f, t) : 'todo o histórico';
+  document.getElementById('f-range').textContent = f ? fmtTagPeriodo(f, t) : '';
   applyFiltro();
 }
 
