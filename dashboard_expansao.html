@@ -851,8 +851,8 @@ body { background: var(--bg); color: var(--txt); }
 <nav class="tabs-wrap">
   <div class="tabs">
     <div class="tab active"  onclick="switchTab('visao',this)">Visão Geral · Funil</div>
-    <div class="tab"         onclick="switchTab('ads',this)">ADS &amp; Campanhas</div>
     <div class="tab"         onclick="switchTab('reunioes',this)">Reuniões</div>
+    <div class="tab"         onclick="switchTab('ads',this)">ADS &amp; Campanhas</div>
   </div>
 </nav>
 
@@ -1165,7 +1165,7 @@ async function loadADSfromAPI() {
 }
 
 /* ─── Filtro de período ─── */
-let filtroAtivo = 'thismonth';
+let filtroAtivo = '15d';
 let filtroDe    = null;
 let filtroAte   = null;
 let activeCRM   = [];
@@ -2615,8 +2615,8 @@ function renderFontesCRM() {
 ══════════════════════════════════════════════ */
 
 (function init() {
-  /* Filtro padrão = mês atual */
-  setShortcut('thismonth', document.getElementById('fc-mes'));
+  /* Filtro padrão = últimos 15 dias */
+  setShortcut('15d', document.getElementById('fc-15d'));
 
   /* Carregar dados */
   fetchAll();
