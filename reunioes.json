@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-01",
+  "atualizadoEm": "2026-10-01T17:45",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse de Santos ainda indefinido",
@@ -96,6 +96,23 @@
       "objecoes": ["pediu-numeros", "repasse-sem-valor", "operacao-pesada"],
       "proximoPasso": "Comercial trazer o fechamento do mês da loja de Santos até segunda (05/10); segunda reunião na terça (06/10) via Paloma.",
       "videoUrl": "https://drive.google.com/file/d/1xnDXwI7E6R--tvsTvokTjlNPkT6407G7/view"
+    },
+    {
+      "dealId": "6abb4c125765dc002894e1c2",
+      "lead": "Ivo Seguro",
+      "cidade": "Sorocaba",
+      "data": "2026-10-01",
+      "duracaoMin": 37,
+      "falaLeadPct": 14,
+      "conduzido": "Otávio (Expansão) · Paloma (SDR)",
+      "praca": "Sorocaba · loja nova (cogitou Araçoiaba)",
+      "capitalCitado": "Não citado — loja nova estimada em R$ 250 a 270 mil",
+      "interesse": "medio",
+      "perfil": "Trabalha com logística na região de Sorocaba e já tem CNPJ; procurava um negócio para investir e chegou pelo anúncio do Facebook.",
+      "resumo": "Reunião de apresentação completa para loja nova em Sorocaba, praça sem operação de distribuição hoje. As perguntas foram sobre dinheiro: quanto vai em chopeiras, câmara fria e cilindros, margem líquida e faturamento da região, que não existe como referência por não haver loja ativa. Achou tudo claro e transparente, mas não marcou a segunda reunião na hora.",
+      "objecoes": ["investimento-montagem", "pediu-numeros"],
+      "proximoPasso": "Lead pensar e passar uma data para a Paloma marcar a segunda reunião; depois documentação básica e visita à fábrica. Comercial enviar vídeos de lojas montadas.",
+      "videoUrl": "https://drive.google.com/file/d/13NXz8Jdncd7TZ9Q0P6jdX1BDag-teLrR/view"
     }
   ]
 }
