@@ -1,8 +1,10 @@
 {
-  "atualizadoEm": "2026-10-01T17:45",
+  "atualizadoEm": "2026-10-08",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
-    "repasse-sem-valor": "Valor do repasse de Santos ainda indefinido",
+    "repasse-sem-valor": "Valor do repasse ainda indefinido",
+    "praca-pequena": "Dúvida sobre o potencial da praça oferecida",
+    "prazo-abertura": "Prazo de abertura não atende a expectativa",
     "pediu-numeros": "Pediu números reais da loja (volume / lucro)",
     "investimento-montagem": "Custo de montagem além da concessão",
     "capital-socio": "Precisa de sócio para o capital",
@@ -113,6 +115,40 @@
       "objecoes": ["investimento-montagem", "pediu-numeros"],
       "proximoPasso": "Lead pensar e passar uma data para a Paloma marcar a segunda reunião; depois documentação básica e visita à fábrica. Comercial enviar vídeos de lojas montadas.",
       "videoUrl": "https://drive.google.com/file/d/13NXz8Jdncd7TZ9Q0P6jdX1BDag-teLrR/view"
+    },
+    {
+      "dealId": "6aad8da8452b9f0022f99374",
+      "lead": "Claudian Monteiro",
+      "cidade": "Taubaté",
+      "data": "2026-09-29",
+      "duracaoMin": 45,
+      "falaLeadPct": 21,
+      "conduzido": "Otávio (Expansão) · Paloma (SDR)",
+      "praca": "Caçapava · loja nova (Taubaté, Guará e Pinda já têm loja)",
+      "capitalCitado": "Não citado — loja nova estimada em R$ 200 mil; já tem utilitário",
+      "interesse": "alto",
+      "perfil": "Multifranqueado da região (açaí e uma operação de esportes de areia); tocaria a loja com o irmão, que é sócio.",
+      "resumo": "Conexão caiu no início e a reunião recomeçou. Muito engajado: perguntou de quantidade de chopeiras, envase de gás, frete, primeira compra, boleto, metragem do ponto e câmara fria. Já pensa em TAP House e em levar chopp para a quadra de esportes que tem com o irmão. Teve experiência ruim com outra franquia e gostou do modelo sem taxas. A praça oferecida é Caçapava, que ele acha pequena. Queria abrir em dezembro, mas o Otávio disse que este ano não dá por causa do prazo das chopeiras.",
+      "objecoes": ["praca-pequena", "prazo-abertura", "decisao-familia"],
+      "proximoPasso": "Lead visitar a loja de Pindamonhangaba com o irmão no dia seguinte e sondar Caçapava; depois acionar a Paloma para a segunda reunião, já com o sócio. Comercial enviar vídeos das lojas.",
+      "videoUrl": "https://drive.google.com/file/d/1RScIJXHwHzhWG4e9eUmH4CpR8xF3eyiy/view"
+    },
+    {
+      "dealId": "6abd104f92884500252c8d27",
+      "lead": "Ronaldo Alves",
+      "cidade": "Santos / Santo André",
+      "data": "2026-10-07",
+      "duracaoMin": 49,
+      "falaLeadPct": 29,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Diadema · repasse de loja existente",
+      "capitalCitado": "Não citado",
+      "interesse": "alto",
+      "perfil": "Empresário há quase 30 anos no varejo automotivo em Santos, mora em Santo André; está vendendo o negócio atual e é cliente do chopp Germania há anos.",
+      "resumo": "Veio pelo repasse da loja de Diadema, que tem mais de 10 anos e um operador com menos dedicação hoje. Gostou do modelo sem taxas e do barril em comodato. Perguntou sobre equipe, chopeira no cliente, câmara fria e troca de chopp estragado. Os valores ficaram para depois da visita à loja. Saiu dizendo estar \"convicto que vai dar certo\".",
+      "objecoes": ["repasse-sem-valor"],
+      "proximoPasso": "Visita à loja de Diadema num sábado (cerca de 15 dias) com o Otávio e o distribuidor atual; antes disso, segunda conversa com Antônio e Paloma. Valores e condições só depois da visita.",
+      "videoUrl": "https://drive.google.com/file/d/1e2z1Tp5-tynuP8CMOMFXiqWobEGZ8bx6/view"
     }
   ]
 }
