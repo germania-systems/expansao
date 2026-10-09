@@ -1,10 +1,12 @@
 {
-  "atualizadoEm": "2026-10-08",
+  "atualizadoEm": "2026-10-09",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
     "praca-pequena": "Dúvida sobre o potencial da praça oferecida",
     "prazo-abertura": "Prazo de abertura não atende a expectativa",
+    "sem-valor-investimento": "Valor do investimento não foi apresentado",
+    "decisao-socios": "Decisão depende de sócios",
     "pediu-numeros": "Pediu números reais da loja (volume / lucro)",
     "investimento-montagem": "Custo de montagem além da concessão",
     "capital-socio": "Precisa de sócio para o capital",
@@ -149,6 +151,23 @@
       "objecoes": ["repasse-sem-valor"],
       "proximoPasso": "Visita à loja de Diadema num sábado (cerca de 15 dias) com o Otávio e o distribuidor atual; antes disso, segunda conversa com Antônio e Paloma. Valores e condições só depois da visita.",
       "videoUrl": "https://drive.google.com/file/d/1e2z1Tp5-tynuP8CMOMFXiqWobEGZ8bx6/view"
+    },
+    {
+      "dealId": "6abaa9f4185e7300209d14a8",
+      "lead": "Marcus Pinto",
+      "cidade": "Araçoiaba da Serra",
+      "data": "2026-10-09",
+      "duracaoMin": 61,
+      "falaLeadPct": 36,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "Sorocaba · loja nova (Araçoiaba é pequena demais para ter loja própria)",
+      "capitalCitado": "Não citado",
+      "interesse": "alto",
+      "perfil": "Profissional de mídia e comunicação com longa carreira em TV, hoje representante comercial de um jornal no interior; quer abrir o negócio com dois sócios.",
+      "resumo": "Chegou pelo Instagram. Reunião longa e bem conversada: o Antônio abriu perguntando sobre o lead, que falou 36% do tempo, a maior fatia até agora. A praça é Sorocaba, livre desde que a antiga operadora ficou só com o bar, que vira cliente da nova loja. Perguntou sobre redes de supermercado da região, exclusividade nos PDVs, validade do barril e venda em feirinhas de condomínio (o Antônio incentivou um beer truck). O tempo acabou antes dos valores de investimento. Disse que o negócio faz sentido e quer repetir a conversa com os sócios.",
+      "objecoes": ["sem-valor-investimento", "decisao-socios"],
+      "proximoPasso": "Comercial enviar vídeos (loja de Hortolândia com beer truck); lead alinhar com os dois sócios e marcar a segunda reunião com a Paloma, já com valores de investimento. Depois, visita a pontos em Sorocaba.",
+      "videoUrl": "https://drive.google.com/file/d/1PN7vUoAyWR6HtmesVOOsqXdMFH-H3zCV/view"
     }
   ]
 }
