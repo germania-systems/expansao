@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-09",
+  "atualizadoEm": "2026-10-13",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -7,6 +7,8 @@
     "prazo-abertura": "Prazo de abertura não atende a expectativa",
     "sem-valor-investimento": "Valor do investimento não foi apresentado",
     "decisao-socios": "Decisão depende de sócios",
+    "concorrencia": "Quer entender concorrência e preço antes de decidir",
+    "carteira-adormecida": "Praça sem carteira ativa (recomeço quase do zero)",
     "pediu-numeros": "Pediu números reais da loja (volume / lucro)",
     "investimento-montagem": "Custo de montagem além da concessão",
     "capital-socio": "Precisa de sócio para o capital",
@@ -168,6 +170,23 @@
       "objecoes": ["sem-valor-investimento", "decisao-socios"],
       "proximoPasso": "Comercial enviar vídeos (loja de Hortolândia com beer truck); lead alinhar com os dois sócios e marcar a segunda reunião com a Paloma, já com valores de investimento. Depois, visita a pontos em Sorocaba.",
       "videoUrl": "https://drive.google.com/file/d/1PN7vUoAyWR6HtmesVOOsqXdMFH-H3zCV/view"
+    },
+    {
+      "dealId": "6aa74150f6fab20027d78292",
+      "lead": "Mário César Pedroso",
+      "cidade": "Sorocaba",
+      "data": "2026-10-09",
+      "duracaoMin": 67,
+      "falaLeadPct": 39,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Sorocaba · loja nova",
+      "capitalCitado": "Disse que o investimento (~R$ 190 mil) não é dificuldade",
+      "interesse": "medio",
+      "perfil": "Empresário de longa data na construção civil de alto padrão, hoje na área comercial com arquitetos e condomínios de luxo; nascido em Sorocaba. Pensava em abrir um delivery de bebidas próprio.",
+      "resumo": "Ex-cliente do antigo distribuidor de Sorocaba e frequentador de bares, estranhou não ver mais Germania na cidade. Perguntou se herdaria carteira de clientes: a resposta foi que ela está adormecida e o recomeço é quase do zero, exceto o bar da ex-operadora. Fez muitas perguntas sobre concorrência (Brahma, Antártica, Heineken, cervejarias locais), escolha de ponto, câmara fria, equipe e volume (Sorocaba comporta 10 mil litros/mês, com histórico de 20 mil). Capital não é problema, e a rede de contatos de alto padrão combina com o público do chopp. Quer estudar concorrência e posicionamento de preço antes de decidir, e trazer o filho para a próxima conversa.",
+      "objecoes": ["concorrencia", "carteira-adormecida", "decisao-familia", "avaliando-outras"],
+      "proximoPasso": "Comercial enviar vídeos das lojas; segunda reunião, de preferência presencial em Sorocaba com o filho, já com plano de negócio e projeção de faturamento. Lead pesquisar concorrência e preços na cidade.",
+      "videoUrl": "https://drive.google.com/file/d/1suOGoCgs8FSHZhAPEaCnON8aqR_4R0OV/view"
     }
   ]
 }
