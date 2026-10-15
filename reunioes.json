@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-13",
+  "atualizadoEm": "2026-10-15",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -9,6 +9,7 @@
     "decisao-socios": "Decisão depende de sócios",
     "concorrencia": "Quer entender concorrência e preço antes de decidir",
     "carteira-adormecida": "Praça sem carteira ativa (recomeço quase do zero)",
+    "margem-apertada": "Acha a margem apertada frente à concorrência",
     "pediu-numeros": "Pediu números reais da loja (volume / lucro)",
     "investimento-montagem": "Custo de montagem além da concessão",
     "capital-socio": "Precisa de sócio para o capital",
@@ -187,6 +188,23 @@
       "objecoes": ["concorrencia", "carteira-adormecida", "decisao-familia", "avaliando-outras"],
       "proximoPasso": "Comercial enviar vídeos das lojas; segunda reunião, de preferência presencial em Sorocaba com o filho, já com plano de negócio e projeção de faturamento. Lead pesquisar concorrência e preços na cidade.",
       "videoUrl": "https://drive.google.com/file/d/1suOGoCgs8FSHZhAPEaCnON8aqR_4R0OV/view"
+    },
+    {
+      "dealId": "6acc2b80eb298a0028b79807",
+      "lead": "Tito Dantas",
+      "cidade": "Rio Preto / São Paulo",
+      "data": "2026-10-14",
+      "duracaoMin": 27,
+      "falaLeadPct": 51,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "Sorocaba · loja nova",
+      "capitalCitado": "Não citado — loja estimada em R$ 300 a 350 mil",
+      "interesse": "alto",
+      "perfil": "Empresário do atacado de bebidas em São Paulo desde o início dos anos 2000; também atua com importação e distribuição. Conhece bem o mercado de chopp e de cerveja.",
+      "resumo": "A gravação começa já no meio da conversa. O lead fez as contas na hora: comparou o preço de venda da Ambev no interior (R$ 11 a 13 o litro) e o de uma concorrente regional com o custo Germania mais frete, e achou a margem apertada. Gostou do barril em comodato e da condição do fornecedor homologado de chopeiras. Perguntou a quantidade de chopeiras para começar (25 a 30), a metragem (150 a 180 m²), como fica a ex-operadora de Sorocaba e a área de atuação. Pediu o preço das long necks, que não foi passado. Saiu dizendo \"vou fazer a loja mesmo\".",
+      "objecoes": ["margem-apertada", "concorrencia"],
+      "proximoPasso": "Lead dar retorno até segunda/terça (19–20/10); encontro presencial em Sorocaba entre terça e quinta com o Antônio e o coordenador. Depois, ficha de avaliação e contrato. Comercial enviar vídeos das lojas e o preço das long necks.",
+      "videoUrl": "https://drive.google.com/file/d/1qArNStQUdYQP0936qiq8u65sEMPD4ZT0/view"
     }
   ]
 }
