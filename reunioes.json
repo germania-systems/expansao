@@ -10,6 +10,7 @@
     "concorrencia": "Quer entender concorrência e preço antes de decidir",
     "carteira-adormecida": "Praça sem carteira ativa (recomeço quase do zero)",
     "margem-apertada": "Acha a margem apertada frente à concorrência",
+    "quer-visitar-loja": "Quer conhecer uma loja antes de decidir",
     "pediu-numeros": "Pediu números reais da loja (volume / lucro)",
     "investimento-montagem": "Custo de montagem além da concessão",
     "capital-socio": "Precisa de sócio para o capital",
@@ -205,6 +206,40 @@
       "objecoes": ["margem-apertada", "concorrencia"],
       "proximoPasso": "Lead dar retorno até segunda/terça (19–20/10); encontro presencial em Sorocaba entre terça e quinta com o Antônio e o coordenador. Depois, ficha de avaliação e contrato. Comercial enviar vídeos das lojas e o preço das long necks.",
       "videoUrl": "https://drive.google.com/file/d/1qArNStQUdYQP0936qiq8u65sEMPD4ZT0/view"
+    },
+    {
+      "dealId": "6acfa3d8e2912a00280962fc",
+      "lead": "Wagner Nicoletti",
+      "cidade": "Taquaritinga",
+      "data": "2026-10-15",
+      "duracaoMin": 80,
+      "falaLeadPct": 58,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Taquaritinga · loja nova (pode atender Jaboticabal e Monte Alto, sem loja hoje)",
+      "capitalCitado": "Não citado — investimento estimado de R$ 180 a 350 mil; já tem ponto próprio (~200 m²)",
+      "interesse": "alto",
+      "perfil": "Bancário de carreira e investidor; dono de uma fábrica regional de refrigerantes com centenas de PDVs na região e de um depósito de bebidas. Está montando um delivery de bebidas com frota elétrica.",
+      "resumo": "Reunião longa em que o lead falou mais que o comercial. Estuda o mercado de chopp há um ano e já visitou o fabricante de chopeiras parceiro. Quer integrar a Germania ao delivery próprio e a um ponto na avenida principal, com venda no balcão (TAP House) e distribuição. Comparou preços da cidade na hora: o barril de 30 L Germania fica abaixo de Heineken e Antártica e acima das marcas regionais, com as quais ele não quer trabalhar. Perguntou investimento, margem (15–25%), nota fiscal e regime tributário. Também apontou um depósito local que anunciaria Germania sem ser lojista; o comercial ficou de checar.",
+      "objecoes": ["quer-visitar-loja"],
+      "proximoPasso": "Comercial enviar vídeos das lojas e o contrato para o advogado do lead; visita à loja de Ribeirão Preto com o Antônio e o franqueado na semana de 22/10. Checar o depósito que anuncia Germania em Taquaritinga.",
+      "videoUrl": "https://drive.google.com/file/d/1-HOKTz2rUZoHYVvBxPAqRsa1KHfBpPUO/view"
+    },
+    {
+      "dealId": "6acfcbecdcb2110020102aee",
+      "lead": "Adler Favaro",
+      "cidade": "Sertãozinho",
+      "data": "2026-10-15",
+      "duracaoMin": 42,
+      "falaLeadPct": 25,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Sertãozinho · repasse da loja hoje operada pela Germania (alternativa: loja nova em Ourinhos)",
+      "capitalCitado": "Não citado — valor do repasse apresentado na reunião, com negociação e parcelamento",
+      "interesse": "medio",
+      "perfil": "Engenheiro, supervisor de qualidade numa indústria de Sertãozinho; natural de Piraju e com planos de voltar para a região. É a primeira franquia que estuda.",
+      "resumo": "Veio pela loja de Sertãozinho, que está montada e hoje é operada pela própria Germania; como abre só em horário comercial, o lead nunca viu movimento lá. Pediu histórico de faturamento e uma estimativa de margem para calcular o capital de giro, mas só havia um pico de volume e uma conta aproximada, sem média histórica. Perguntou sobre competitividade frente à Antártica, retirada no CD de Ribeirão, prazo de pagamento e taxas. Piraju é pequena demais para uma loja; Ourinhos seria a alternativa.",
+      "objecoes": ["pediu-numeros", "carteira-adormecida"],
+      "proximoPasso": "Lead passar na loja no sábado para pegar grawlers de cortesia; encontro presencial na loja com o Antônio na semana de 22/10. Comercial levantar o histórico de vendas da loja.",
+      "videoUrl": "https://drive.google.com/file/d/1kxoEsx2lteMH9e2b8G-JlPX0e7FUuT3T/view"
     }
   ]
 }
