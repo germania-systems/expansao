@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-15",
+  "atualizadoEm": "2026-10-16",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -240,6 +240,23 @@
       "objecoes": ["pediu-numeros", "carteira-adormecida"],
       "proximoPasso": "Lead passar na loja no sábado para pegar grawlers de cortesia; encontro presencial na loja com o Antônio na semana de 22/10. Comercial levantar o histórico de vendas da loja.",
       "videoUrl": "https://drive.google.com/file/d/1kxoEsx2lteMH9e2b8G-JlPX0e7FUuT3T/view"
+    },
+    {
+      "dealId": "6ad0b367f1333a0022aa0de4",
+      "lead": "Plínio Makarowits",
+      "cidade": "São Bernardo do Campo",
+      "data": "2026-10-16",
+      "duracaoMin": 37,
+      "falaLeadPct": 46,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Diadema · repasse de loja existente",
+      "capitalCitado": "Não citado",
+      "interesse": "alto",
+      "perfil": "Empresário e franqueador de duas marcas no ABC (eventos com sorvete e saúde ocupacional); cliente antigo da loja Germania de São Bernardo. Já teve bar de outra cervejaria e não quer mais operar bar.",
+      "resumo": "Veio pelo repasse de Diadema. Quer o chopp como complemento da operação de eventos que já tem (sorvete, costela no bafo), aproveitando a logística e os clientes atuais. Perguntou se pode levar chopp para eventos fora de Diadema, como Campinas; a regra de território ficou para a próxima conversa. Como franqueador, estranhou e gostou do modelo sem royalties. Pediu faturamento e lucratividade da loja para calcular o valor do negócio, mas o comercial não tinha os dados. Foi avisado de que há outros dois interessados na loja.",
+      "objecoes": ["repasse-sem-valor", "pediu-numeros"],
+      "proximoPasso": "Lead visitar a loja de Diadema como cliente oculto na segunda (19/10); reunião presencial com o Antônio e o coordenador entre quinta e sexta (22–23/10). Comercial levantar inventário, faturamento e valuation da loja.",
+      "videoUrl": "https://drive.google.com/file/d/1IpXBhbgAKf4RLtAfZxVJfQRaAcs-OJkX/view"
     }
   ]
 }
