@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-16",
+  "atualizadoEm": "2026-10-20",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -257,6 +257,23 @@
       "objecoes": ["repasse-sem-valor", "pediu-numeros"],
       "proximoPasso": "Lead visitar a loja de Diadema como cliente oculto na segunda (19/10); reunião presencial com o Antônio e o coordenador entre quinta e sexta (22–23/10). Comercial levantar inventário, faturamento e valuation da loja.",
       "videoUrl": "https://drive.google.com/file/d/1IpXBhbgAKf4RLtAfZxVJfQRaAcs-OJkX/view"
+    },
+    {
+      "dealId": "6aca5f4e7b330c002454160e",
+      "lead": "Uygor Morandin",
+      "cidade": "São José do Rio Preto",
+      "data": "2026-10-19",
+      "duracaoMin": 47,
+      "falaLeadPct": 33,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Mirassol · loja nova (Rio Preto já tem loja)",
+      "capitalCitado": "Não citado — investimento não apresentado",
+      "interesse": "medio",
+      "perfil": "Sócio de uma empresa de iluminação pública e projetos elétricos, com carreira longa no setor elétrico; quer um negócio familiar para a esposa e o filho tocarem, como segunda fonte de renda.",
+      "resumo": "Queria Rio Preto, que já tem loja, e o Antônio ofereceu Mirassol (cerca de 60 mil habitantes), que hoje é atendida por encomenda pela loja de Rio Preto. As perguntas foram sobre o potencial da praça, a divisão de território com Rio Preto, ponto comercial, investimento inicial e retorno. Conhece o franqueado de Rio Preto e pode tirar dúvidas com ele. O Antônio explicou modelo, equipe e barris, mas não passou nenhum valor de investimento.",
+      "objecoes": ["sem-valor-investimento", "praca-pequena", "decisao-familia"],
+      "proximoPasso": "Lead conversar com a esposa; café presencial em Mirassol com o Antônio para estudar viabilidade, valores e possíveis pontos. Comercial enviar vídeos de lojas recentes.",
+      "videoUrl": "https://drive.google.com/file/d/1DQizpTFjVVUGTsQIQWaXrrRmDrJ9VDQS/view"
     }
   ]
 }
