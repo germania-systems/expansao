@@ -599,6 +599,25 @@ body { background: var(--bg); color: var(--txt); }
   color: var(--gold-lt); text-decoration: none; white-space: nowrap;
 }
 .reu-foot a:hover { text-decoration: underline; }
+.reu-foot-actions { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+.btn-pdf {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  background: var(--gold); color: var(--bg);
+  border: 1px solid var(--gold); border-radius: 6px;
+  padding: 6px 14px; cursor: pointer; white-space: nowrap;
+  transition: background 0.15s;
+}
+.btn-pdf:hover { background: var(--gold-lt); }
+.btn-pdf:disabled { opacity: 0.4; cursor: default; }
+.btn-pdf-sm {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  background: transparent; color: var(--txt-faint);
+  border: 1px solid var(--border); border-radius: 4px;
+  padding: 2px 9px; cursor: pointer; white-space: nowrap;
+}
+.btn-pdf-sm:hover { color: var(--gold-lt); border-color: var(--gold); }
 
 /* ══════════════════════════════════════════════
    SECTION DIVIDER
@@ -1064,9 +1083,12 @@ body { background: var(--bg); color: var(--txt); }
 
     <!-- Cards por reunião -->
     <div class="card">
-      <div class="card-header">
-        <div class="c-title">Reuniões por Lead</div>
-        <div class="c-sub">Resumo, travas e próximo passo · etapa atual puxada ao vivo do RD</div>
+      <div class="card-header" style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
+        <div>
+          <div class="c-title">Reuniões por Lead</div>
+          <div class="c-sub">Resumo, travas e próximo passo · etapa atual puxada ao vivo do RD</div>
+        </div>
+        <button class="btn-pdf" id="btn-pdf-todas" onclick="gerarPDFReunioes()">⤓ Gerar PDF do período</button>
       </div>
       <div id="reu-lista-container">
         <div class="empty-state">Aguardando dados...</div>
@@ -1527,6 +1549,150 @@ function chipEtapaRD(dealId) {
   return `<span class="chip chip-neutral">${esc(ETAPA_SHORT[deal.stage] || deal.stage || '—')}</span>`;
 }
 
+/* ── PDF das reuniões: monta um relatório A4 claro num iframe e abre a impressão ("Salvar como PDF") ── */
+function etapaRDTexto(dealId) {
+  const deal = rawCRM.find(d => d.id === dealId);
+  if (!deal) return 'Sem card no RD';
+  const etapa = ETAPA_SHORT[deal.stage] || deal.stage || '—';
+  if (deal.status === 'perdido') return 'Perdido · ' + etapa;
+  if (deal.status === 'ganho') return 'Ganho';
+  return etapa;
+}
+
+function montarRelatorioHTML(lista, individual) {
+  const legenda = (rawReunioes && rawReunioes.objecoesLegenda) || {};
+  const n = lista.length;
+  const hoje = new Date().toLocaleDateString('pt-BR');
+  const periodo = individual ? '' : (filtroDe ? fmtTagPeriodo(filtroDe, filtroAte) : 'Todo o histórico');
+  const interesseTxt = { alto: 'Interesse alto', medio: 'Interesse médio', baixo: 'Interesse baixo' };
+
+  /* resumo do período: só no relatório completo */
+  let resumoHTML = '';
+  if (!individual) {
+    const media = k => Math.round(lista.reduce((s, r) => s + (Number(r[k]) || 0), 0) / n);
+    const altos = lista.filter(r => r.interesse === 'alto').length;
+    const cont = {};
+    lista.forEach(r => (r.objecoes || []).forEach(o => { cont[o] = (cont[o] || 0) + 1; }));
+    const travas = Object.entries(cont).sort((a, b) => b[1] - a[1]).slice(0, 5);
+    resumoHTML = `
+      <section class="kpis">
+        <div><b>${n}</b><span>reuniões</span></div>
+        <div><b>${media('duracaoMin')} min</b><span>duração média</span></div>
+        <div><b>${media('falaLeadPct')}%</b><span>fala do lead (média)</span></div>
+        <div><b>${altos}</b><span>com interesse alto</span></div>
+      </section>
+      ${travas.length ? `<section class="travas-top">
+        <h3>Travas mais citadas</h3>
+        <ol>${travas.map(([k, c]) => `<li>${esc(legenda[k] || k)} <em>${c} de ${n}</em></li>`).join('')}</ol>
+      </section>` : ''}`;
+  }
+
+  const reunioesHTML = lista.map(r => `
+    <article class="reu">
+      <header>
+        <div>
+          <h2>${esc(r.lead)}</h2>
+          <p class="meta">${esc(r.cidade)} · ${fmtDataBR(r.data)} · ${r.duracaoMin} min · ${esc(r.conduzido)}</p>
+        </div>
+        <div class="tags">
+          <span class="tag tag-${esc(r.interesse)}">${interesseTxt[r.interesse] || '—'}</span>
+          <span class="tag">RD: ${esc(etapaRDTexto(r.dealId))}</span>
+        </div>
+      </header>
+      <p class="perfil">${esc(r.perfil)}</p>
+      <h4>Resumo</h4>
+      <p>${esc(r.resumo)}</p>
+      <h4>Travas</h4>
+      <p class="travas">${(r.objecoes || []).length ? r.objecoes.map(o => `<span>${esc(legenda[o] || o)}</span>`).join('') : 'Nenhuma trava relevante'}</p>
+      <div class="next"><h4>Próximo passo</h4><p>${esc(r.proximoPasso)}</p></div>
+      <p class="foot">Praça: ${esc(r.praca)} · Capital: ${esc(r.capitalCitado)} · Fala do lead: ${r.falaLeadPct}%</p>
+    </article>`).join('');
+
+  const titulo = individual ? `Reunião · ${lista[0].lead}` : 'Relatório de Reuniões';
+  const arquivo = individual
+    ? `Reuniao-${lista[0].lead.replace(/\s+/g, '-')}-${lista[0].data}`
+    : `Reunioes-Expansao-${fmtYMD(new Date())}`;
+
+  return `<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>${esc(arquivo)}</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 16mm 14mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Barlow', sans-serif; font-size: 10.5pt; line-height: 1.5; color: #2A2116; background: #fff;
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .capa { display: flex; align-items: center; gap: 14px; padding-bottom: 12px; border-bottom: 3px solid #C92B1E; margin-bottom: 14px; }
+  .capa .logo { width: 64px; height: 64px; border-radius: 50%; background: #C92B1E; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .capa .logo img { width: 74px; height: 74px; object-fit: contain; }
+  .capa .eyebrow { font-family: 'Barlow Condensed', sans-serif; font-size: 8.5pt; letter-spacing: .18em; text-transform: uppercase; color: #8A7A62; }
+  .capa h1 { font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 22pt; color: #C92B1E; line-height: 1.05; text-transform: uppercase; }
+  .capa .sub { font-size: 9.5pt; color: #6B5D49; }
+  .kpis { display: flex; gap: 10px; margin-bottom: 12px; }
+  .kpis div { flex: 1; border: 1px solid #E6DCCB; border-radius: 6px; padding: 8px 10px; }
+  .kpis b { display: block; font-family: 'Barlow Condensed', sans-serif; font-size: 18pt; font-weight: 800; color: #2A2116; line-height: 1.1; }
+  .kpis span { font-size: 8.5pt; color: #8A7A62; }
+  .travas-top { margin-bottom: 16px; }
+  .travas-top h3, h4 { font-family: 'Barlow Condensed', sans-serif; font-size: 9pt; letter-spacing: .14em; text-transform: uppercase; color: #A8761A; margin-bottom: 3px; }
+  .travas-top ol { padding-left: 18px; font-size: 9.5pt; }
+  .travas-top em { font-style: normal; color: #8A7A62; margin-left: 4px; }
+  .reu { border: 1px solid #E6DCCB; border-radius: 8px; padding: 12px 14px; margin-bottom: 12px; break-inside: avoid; page-break-inside: avoid; }
+  .reu header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px; }
+  .reu h2 { font-family: 'Barlow Condensed', sans-serif; font-size: 15pt; font-weight: 800; text-transform: uppercase; line-height: 1.1; }
+  .meta { font-size: 9pt; color: #8A7A62; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+  .tag { font-family: 'Barlow Condensed', sans-serif; font-size: 8.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
+         padding: 2px 7px; border-radius: 4px; background: #F2ECE2; color: #6B5D49; white-space: nowrap; }
+  .tag-alto { background: #E3F3EA; color: #2E7D55; }
+  .tag-medio { background: #FCEFD9; color: #9A6510; }
+  .tag-baixo { background: #F8E1DE; color: #B0362A; }
+  .perfil { font-style: italic; color: #6B5D49; font-size: 9.5pt; margin-bottom: 6px; }
+  .reu h4 { margin-top: 6px; }
+  .travas span { display: inline-block; font-size: 8.5pt; background: #F8E1DE; color: #9E2F24; border-radius: 4px; padding: 1px 7px; margin: 0 4px 3px 0; }
+  .next { border-left: 3px solid #C8941A; background: #FBF5E8; padding: 6px 10px; margin-top: 8px; border-radius: 0 4px 4px 0; }
+  .next h4 { margin-top: 0; }
+  .foot { font-size: 8.5pt; color: #8A7A62; margin-top: 8px; padding-top: 6px; border-top: 1px solid #EFE7DA; }
+  .rodape { font-size: 8pt; color: #A99A82; text-align: center; margin-top: 8px; }
+</style></head><body>
+  <div class="capa">
+    <div class="logo"><img src="https://res.cloudinary.com/drq9nnioe/image/upload/v1777428373/logo-germania_1_l1nxcl.png" alt="Germânia"></div>
+    <div>
+      <div class="eyebrow">Germânia · Expansão / Franquias Lig Chopp</div>
+      <h1>${esc(titulo)}</h1>
+      <div class="sub">${periodo ? 'Período: ' + esc(periodo) + ' · ' : ''}Gerado em ${hoje}</div>
+    </div>
+  </div>
+  ${resumoHTML}
+  ${reunioesHTML}
+  <p class="rodape">Resumos feitos a partir das transcrições das reuniões no Teams · etapa do RD consultada no momento da geração</p>
+</body></html>`;
+}
+
+function gerarPDFReunioes(dealId) {
+  const lista = dealId
+    ? ((rawReunioes && rawReunioes.reunioes) || []).filter(r => r.dealId === dealId)
+    : getReunioesFiltered();
+  if (!lista.length) return;
+
+  /* iframe escondido: evita bloqueio de pop-up e não tira o usuário do dash */
+  const antigo = document.getElementById('pdf-frame');
+  if (antigo) antigo.remove();
+  const frame = document.createElement('iframe');
+  frame.id = 'pdf-frame';
+  frame.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;visibility:hidden';
+  document.body.appendChild(frame);
+
+  const doc = frame.contentWindow.document;
+  doc.open();
+  doc.write(montarRelatorioHTML(lista, !!dealId));
+  doc.close();
+
+  const imprimir = () => { frame.contentWindow.focus(); frame.contentWindow.print(); };
+  frame.onload = () => {
+    /* espera fontes e logo para o PDF não sair com fonte padrão */
+    const fontes = frame.contentWindow.document.fonts ? frame.contentWindow.document.fonts.ready : Promise.resolve();
+    Promise.race([fontes, new Promise(r => setTimeout(r, 2500))]).then(imprimir);
+  };
+}
+
 function fmtDataBR(ymd) {
   const [y, m, d] = ymd.split('-');
   return `${d}/${m}/${y}`;
@@ -1537,6 +1703,7 @@ function renderReunioes() {
   const lista = getReunioesFiltered();
   const legenda = (rawReunioes && rawReunioes.objecoesLegenda) || {};
   const n = lista.length;
+  document.getElementById('btn-pdf-todas').disabled = !n;
 
   const media = key => n ? lista.reduce((s, r) => s + (Number(r[key]) || 0), 0) / n : 0;
   const falaMedia = media('falaLeadPct');
@@ -1614,7 +1781,10 @@ function renderReunioes() {
         <div class="reu-next"><div class="reu-lbl">Próximo passo</div><div class="reu-txt">${esc(r.proximoPasso)}</div></div>
         <div class="reu-foot">
           <span>${esc(r.praca)} · Capital: ${esc(r.capitalCitado)}</span>
-          ${r.videoUrl ? `<a href="${esc(r.videoUrl)}" target="_blank" rel="noopener">▶ Gravação</a>` : ''}
+          <div class="reu-foot-actions">
+            <button class="btn-pdf-sm" onclick="gerarPDFReunioes('${esc(r.dealId)}')">⤓ PDF</button>
+            ${r.videoUrl ? `<a href="${esc(r.videoUrl)}" target="_blank" rel="noopener">▶ Gravação</a>` : ''}
+          </div>
         </div>
       </div>`;
     }).join('')}
