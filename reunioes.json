@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-20",
+  "atualizadoEm": "2026-10-23",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -274,6 +274,23 @@
       "objecoes": ["sem-valor-investimento", "praca-pequena", "decisao-familia"],
       "proximoPasso": "Lead conversar com a esposa; café presencial em Mirassol com o Antônio para estudar viabilidade, valores e possíveis pontos. Comercial enviar vídeos de lojas recentes.",
       "videoUrl": "https://drive.google.com/file/d/1DQizpTFjVVUGTsQIQWaXrrRmDrJ9VDQS/view"
+    },
+    {
+      "dealId": "6ad768ceb4245d0026c8e112",
+      "lead": "Oliveira",
+      "cidade": "Mogi Mirim",
+      "data": "2026-10-23",
+      "duracaoMin": 56,
+      "falaLeadPct": 43,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "Serra Negra ou Águas de Lindóia · loja nova (Circuito das Águas sem Germania hoje)",
+      "capitalCitado": "Não citado — preocupação com o investimento, aliviada pelo parcelamento das chopeiras",
+      "interesse": "alto",
+      "perfil": "Empresário de Mogi Mirim, dono de uma loja de pedras naturais e construção de piscinas que já atende o Circuito das Águas e o sul de Minas. Cliente fiel do chopp Germania e participante do Sua Casa Nosso Bar.",
+      "resumo": "Cliente assíduo da loja de Mogi Mirim. Quer abrir em Serra Negra ou Águas de Lindóia, onde não encontra Germania: nos bares da região só há outra marca. Dá muito valor a pós-venda e quer replicar o modelo de instalar a chopeira no cliente, com plantão no fim de semana. Vê sinergia em vender chopeiras nas obras de área de lazer que já faz. Perguntou quantidade e preço das chopeiras (cerca de 30 para começar, parceladas em umas 10 vezes no fornecedor), barris em comodato, retirada do chopp, mix de estilos, prazo de pagamento e metragem (a partir de 120 m²). A esposa acompanhou a reunião.",
+      "objecoes": ["investimento-montagem", "decisao-familia"],
+      "proximoPasso": "Lead conversar com a esposa e o contador; café presencial com o Antônio na semana que vem. Comercial enviar vídeos das lojas e a lista de documentos para a análise.",
+      "videoUrl": "https://drive.google.com/file/d/1CNRSXHjJYIDXyowfSvS1LPJHXOUfkGyI/view"
     }
   ]
 }
