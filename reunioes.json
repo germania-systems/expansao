@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-23",
+  "atualizadoEm": "2026-10-28",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -291,6 +291,23 @@
       "objecoes": ["investimento-montagem", "decisao-familia"],
       "proximoPasso": "Lead conversar com a esposa e o contador; café presencial com o Antônio na semana que vem. Comercial enviar vídeos das lojas e a lista de documentos para a análise.",
       "videoUrl": "https://drive.google.com/file/d/1CNRSXHjJYIDXyowfSvS1LPJHXOUfkGyI/view"
+    },
+    {
+      "dealId": "6ad80ffa571a3c00220a35c0",
+      "lead": "Rodrigo Grigolatto",
+      "cidade": "Guaíra",
+      "data": "2026-10-27",
+      "duracaoMin": 40,
+      "falaLeadPct": 39,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Guaíra · loja nova (pode atender Miguelópolis e região)",
+      "capitalCitado": "Não citado — quer investir a partir de novembro; já tem imóvel próprio de esquina",
+      "interesse": "alto",
+      "perfil": "Empresário de Guaíra: tem mercado, depósito de água e gás e uma empresa de segurança rural, além de atuar como advogado. Tem prédio próprio de esquina, com estacionamento, ao lado do mercado.",
+      "resumo": "A conexão do lead caiu e a conversa começou com 7 minutos de atraso. Quer acrescentar chopp ao depósito de água e gás e não gosta de franquia tradicional; gostou do modelo sem royalties. Tem um imóvel próprio grande (antiga farmácia) que pode virar a loja, com espaço para TAP House e cozinha. Perguntou infraestrutura, custo e venda do litro, retirada no CD de Ribeirão, transporte sem caminhão refrigerado, pedido mínimo, validade do chopp e barris. Gostou do barril de 10 L, que falta em Guaíra. Pediu orçamento completo e portfólio com preços, que não foram enviados na reunião.",
+      "objecoes": ["sem-valor-investimento"],
+      "proximoPasso": "Lead enviar vídeo e medidas do imóvel; visita presencial do Antônio em Guaíra na terça (03/11) para avaliar o ponto e falar de valores. Comercial enviar vídeos das lojas, portfólio e orçamento.",
+      "videoUrl": "https://drive.google.com/file/d/1_tjnBKtqgMd0NnRvdKuvr4p2Q_jHVnFd/view"
     }
   ]
 }
