@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-28",
+  "atualizadoEm": "2026-11-05",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -308,6 +308,23 @@
       "objecoes": ["sem-valor-investimento"],
       "proximoPasso": "Lead enviar vídeo e medidas do imóvel; visita presencial do Antônio em Guaíra na terça (03/11) para avaliar o ponto e falar de valores. Comercial enviar vídeos das lojas, portfólio e orçamento.",
       "videoUrl": "https://drive.google.com/file/d/1_tjnBKtqgMd0NnRvdKuvr4p2Q_jHVnFd/view"
+    },
+    {
+      "dealId": "6ae48584d11d0e002229a75a",
+      "lead": "Rosiani Miranda",
+      "cidade": "São Paulo",
+      "data": "2026-11-04",
+      "duracaoMin": 58,
+      "falaLeadPct": 49,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "São Paulo · Vila Leopoldina (loja nova) ou repasse de Diadema; ela preferia Interlagos",
+      "capitalCitado": "Valor de R$ 270 a 300 mil está dentro da expectativa",
+      "interesse": "medio",
+      "perfil": "Profissional da área de gerontologia, atua com casas de repouso; quer diversificar com um negócio de pouca mão de obra e mix enxuto. Ela decide e tocaria a operação.",
+      "resumo": "Conversa bem equilibrada e muito objetiva. Comparou com outros modelos (minimercados e lavanderias autônomas) e perguntou se há cota mínima de compra (não há), como funciona o suporte comercial, preço tabelado, ponto, território, investimento e retorno. Recebeu investimento de R$ 270 a 300 mil, payback médio de 24 meses e equilíbrio em cerca de 90 dias, mas sentiu falta de faturamento médio e despesas de referência para montar a própria conta; o comercial disse que a DRE fica para a segunda reunião. A região que ela queria (Interlagos) não está disponível; foram oferecidas Vila Leopoldina e o repasse de Diadema. Perguntou também como sair do negócio se não der certo. Prefere operação de dia.",
+      "objecoes": ["pediu-numeros", "praca-pequena", "avaliando-outras"],
+      "proximoPasso": "Lead visitar pelo menos três lojas (incluindo a do Socorro) e estudar Vila Leopoldina e Diadema; retomar o contato depois da reunião com outro modelo em 11/11. Comercial preparar DRE de referência e o valor do repasse de Diadema.",
+      "videoUrl": "https://drive.google.com/file/d/1sURDkPAxhFXeVTZvdUevt0a1CVN28NSs/view"
     }
   ]
 }
