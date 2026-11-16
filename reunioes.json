@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-10",
+  "atualizadoEm": "2026-11-16",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -343,6 +343,23 @@
       "objecoes": ["capital-abaixo", "carteira-adormecida", "decisao-familia"],
       "proximoPasso": "Lead conversar com a esposa e dar retorno até quarta (11/11); possível visita à loja de Sertãozinho com o Antônio no dia seguinte à reunião. Comercial avaliar proposta de entrada e parcelamento.",
       "videoUrl": "https://drive.google.com/file/d/1iba_qwaFkC6y8h7Emhu3MHffNkGd0r6_/view"
+    },
+    {
+      "dealId": "6ae4c95bfe57320028e087f4",
+      "lead": "Josuel Rodrigues",
+      "cidade": "São Bernardo do Campo",
+      "data": "2026-11-13",
+      "duracaoMin": 41,
+      "falaLeadPct": 43,
+      "conduzido": "Antônio (Expansão)",
+      "praca": "Diadema · repasse de loja existente (São Bernardo já tem loja)",
+      "capitalCitado": "Pensava em R$ 80 a 100 mil — abaixo do valor do repasse",
+      "interesse": "medio",
+      "perfil": "Analista de sistemas que já opera uma pequena choperia própria no Riacho Grande, com chopeiras, carretinha para eventos e barris próprios; trabalha com chopp há cerca de 6 anos.",
+      "resumo": "Já é do ramo: vende chopp de outras marcas e chegou a revender Germania, mas parou por falta de chopeiras emprestadas na loja local. Queria São Bernardo, que já tem loja, e recebeu a proposta do repasse de Diadema, com toda a estrutura de chopeiras, cilindros e veículo. Perguntou investimento, faturamento da loja, aluguel, logística de retirada, território e manutenção. Descobriu que, assumindo Diadema, teria de passar os clientes que tem em São Bernardo para a loja de lá. O valor pedido pela loja fica bem acima do que pretendia investir.",
+      "objecoes": ["capital-abaixo"],
+      "proximoPasso": "Lead fazer as contas de payback com os números recebidos e dar retorno na segunda ou terça (16–17/11); se fizer sentido, nova reunião e visita à loja de Diadema. Comercial enviar fotos da loja.",
+      "videoUrl": "https://drive.google.com/file/d/1syNifZogehQCaisdh3a7QlqHupTFulN5/view"
     }
   ]
 }
