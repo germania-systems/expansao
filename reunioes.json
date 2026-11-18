@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16",
+  "atualizadoEm": "2026-11-18",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -360,6 +360,23 @@
       "objecoes": ["capital-abaixo"],
       "proximoPasso": "Lead fazer as contas de payback com os números recebidos e dar retorno na segunda ou terça (16–17/11); se fizer sentido, nova reunião e visita à loja de Diadema. Comercial enviar fotos da loja.",
       "videoUrl": "https://drive.google.com/file/d/1syNifZogehQCaisdh3a7QlqHupTFulN5/view"
+    },
+    {
+      "dealId": "6af38affd17aaf00206ce8bc",
+      "lead": "Higor de Andrade",
+      "cidade": "Americana",
+      "data": "2026-11-17",
+      "duracaoMin": 55,
+      "falaLeadPct": 35,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "Sorocaba · loja nova (alternativa: Limeira)",
+      "capitalCitado": "Fala em pagar à vista com a venda de um terreno; loja estimada em R$ 300 a 350 mil",
+      "interesse": "alto",
+      "perfil": "Empresário jovem com vários negócios na região de Campinas/Americana (empresa de tecnologia e operações de hospitalidade e bar); tem galpões próprios em Limeira e Americana.",
+      "resumo": "Chegou pelo Instagram e já tinha pesquisado pontos em Sorocaba e montado um projeto próprio. Hesitou entre Sorocaba e Limeira (onde teria imóvel próprio); o Antônio recomendou Sorocaba. Quer começar pela distribuição e depois abrir TAP House, possivelmente com a mãe à frente. Perguntou investimento (R$ 300 a 350 mil), payback (24 a 36 meses), equilíbrio, preço do litro, câmara fria, quantidade de chopeiras (cerca de 35), treinamento e apoio para mesas. Descobriu que reforma e equipamentos ficam todos por conta dele. Disse que o negócio faz sentido e pediu para seguir.",
+      "objecoes": ["investimento-montagem"],
+      "proximoPasso": "Comercial enviar a lista de documentos para análise; lead enviar fotos do ponto pesquisado em Sorocaba. Visita ao ponto depois da viagem do lead (30 dias), com abertura mirada para janeiro ou fevereiro.",
+      "videoUrl": "https://drive.google.com/file/d/13yhz2PgnjqJvDrAv6GEdH_wayzlBLqO0/view"
     }
   ]
 }
