@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18",
+  "atualizadoEm": "2026-11-23",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -377,6 +377,23 @@
       "objecoes": ["investimento-montagem"],
       "proximoPasso": "Comercial enviar a lista de documentos para análise; lead enviar fotos do ponto pesquisado em Sorocaba. Visita ao ponto depois da viagem do lead (30 dias), com abertura mirada para janeiro ou fevereiro.",
       "videoUrl": "https://drive.google.com/file/d/13yhz2PgnjqJvDrAv6GEdH_wayzlBLqO0/view"
+    },
+    {
+      "dealId": "6af5dab9d5831c00212c6e81",
+      "lead": "Evandro Safra",
+      "cidade": "São José do Rio Preto",
+      "data": "2026-11-18",
+      "duracaoMin": 40,
+      "falaLeadPct": 30,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "Mirassol · loja nova (Rio Preto e Ribeirão já têm loja; Marília oferecida como repasse)",
+      "capitalCitado": "Disse que dinheiro não é o problema — loja estimada em R$ 200 a 250 mil",
+      "interesse": "medio",
+      "perfil": "Dono de imobiliária em Rio Preto, com mais de 30 anos no mercado imobiliário; quer diversificar e pensa em expandir depois para Marília e o Paraná.",
+      "resumo": "O áudio do lead não funcionou e a conversa só começou aos 7 minutos. Pensava em Ribeirão ou Rio Preto, que já têm loja, e recebeu Mirassol (cerca de 60 mil habitantes, hoje atendida pela loja de Rio Preto). Recebeu investimento de R$ 200 a 250 mil, margem de 18% a 25%, payback de 24 a 36 meses e meta de 5 a 7 mil litros/mês após estabilizar. Gostou da ideia de uma TAP House com autoatendimento por cartão. Pediu uma planilha detalhando o que entra nos R$ 250 mil (estrutura, acabamento, estoque, refrigeradores). A dúvida principal é se Mirassol tem demanda suficiente.",
+      "objecoes": ["praca-pequena", "pediu-numeros"],
+      "proximoPasso": "Comercial enviar vídeos das lojas e a planilha detalhada do investimento; encontro presencial entre terça e quinta da semana seguinte. Lead visitar a loja de Rio Preto e circular por Mirassol.",
+      "videoUrl": "https://drive.google.com/file/d/1lZP4bX_CwMSdYebEr5AqORFbpPLAlKLI/view"
     }
   ]
 }
