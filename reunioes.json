@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23",
+  "atualizadoEm": "2026-11-24",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -394,6 +394,23 @@
       "objecoes": ["praca-pequena", "pediu-numeros"],
       "proximoPasso": "Comercial enviar vídeos das lojas e a planilha detalhada do investimento; encontro presencial entre terça e quinta da semana seguinte. Lead visitar a loja de Rio Preto e circular por Mirassol.",
       "videoUrl": "https://drive.google.com/file/d/1lZP4bX_CwMSdYebEr5AqORFbpPLAlKLI/view"
+    },
+    {
+      "dealId": "6af895a3fb0601002193ae09",
+      "lead": "Eliel Moreira",
+      "cidade": "Sorocaba",
+      "data": "2026-11-23",
+      "duracaoMin": 105,
+      "falaLeadPct": 40,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "Sorocaba · loja nova (cogita também Votorantim, com estoque central no galpão da transportadora)",
+      "capitalCitado": "Disse que o capital não é o maior problema (a dificuldade é mão de obra); loja estimada em R$ 300 a 350 mil",
+      "interesse": "medio",
+      "perfil": "Empresário de 48 anos, nascido em Sorocaba: tem uma transportadora (cerca de 25 motoristas), uma assistência técnica autorizada de eletrônicos em shopping e investe em construção civil. Não teria dedicação integral à loja.",
+      "resumo": "Chegou por vídeo no Facebook e já foi cliente Germania anos atrás. A maior parte da conversa girou em torno de exclusividade: como Sorocaba está sem loja há mais de um ano, quis saber se outra loja (de Campinas, de Votorantim ou a operação anterior) poderia disputar os clientes dele, e disse que vai passar o contrato ao jurídico. Perguntou sobre ponto (150 m², mínimo 100 a 120 m²), validade do chopp (30 dias) e risco de estoque, plantão de fim de semana, equipe e manutenção das chopeiras. Comparou preço com o barril da Brahma no Zé Delivery. Recebeu investimento de R$ 300 a 350 mil, equilíbrio no 3º mês e payback de 24 meses. Pensou em ter duas lojas (Sorocaba e Votorantim) com estoque central no galpão da transportadora. Saiu da empresa no meio da reunião e continuou pelo celular (pausa de cerca de 10 min). Disse que faz sentido se der lucro.",
+      "objecoes": ["contrato", "concorrencia", "operacao-pesada", "quer-visitar-loja"],
+      "proximoPasso": "Antônio enviar pelo WhatsApp corporativo vídeos de lojas inauguradas recentemente e material por escrito. Lead analisar durante a semana, visitar sem se identificar o ponto que ainda serve Germania em Sorocaba e passar o contrato ao jurídico. Depois, segunda conversa com simulação de ponto de equilíbrio.",
+      "videoUrl": "https://drive.google.com/file/d/1P64x2ANWDUCLxwAFInbU5eM-B4tQJRUM/view"
     }
   ]
 }
