@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24",
+  "atualizadoEm": "2026-11-25",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -411,6 +411,23 @@
       "objecoes": ["contrato", "concorrencia", "operacao-pesada", "quer-visitar-loja"],
       "proximoPasso": "Antônio enviar pelo WhatsApp corporativo vídeos de lojas inauguradas recentemente e material por escrito. Lead analisar durante a semana, visitar sem se identificar o ponto que ainda serve Germania em Sorocaba e passar o contrato ao jurídico. Depois, segunda conversa com simulação de ponto de equilíbrio.",
       "videoUrl": "https://drive.google.com/file/d/1P64x2ANWDUCLxwAFInbU5eM-B4tQJRUM/view"
+    },
+    {
+      "dealId": "6b044662de3f70002107c594",
+      "lead": "Valmir Martins Souza",
+      "cidade": "São Bernardo do Campo",
+      "data": "2026-11-25",
+      "duracaoMin": 37,
+      "falaLeadPct": 48,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "Sorocaba · loja nova (São Bernardo já tem loja)",
+      "capitalCitado": "Não citou capital; o valor do investimento não foi apresentado na reunião",
+      "interesse": "alto",
+      "perfil": "Empresário de 60 anos, empreendedor desde jovem; tem há décadas uma empresa de formaturas com base em São Bernardo e eventos em Santos, Bertioga e Jundiaí. Quer diversificar e depender menos das formaturas.",
+      "resumo": "Viu a Germania na internet e gostou de não haver taxa de franquia, royalties nem fundo de propaganda. A ideia inicial era uma loja de produtos (chopp, cerveja, presentes), sem bar até tarde, e virar um mini distribuidor em São Bernardo abastecendo pequenos comércios; o Antônio explicou que São Bernardo já tem lojista e ofereceu Sorocaba, que ele aprovou na hora (já tinha ido à cidade prospectar formaturas). Recebeu o modelo: câmara fria, chopeiras, os quatro pilares (varejo, bares, eventos, tap house), Sua Casa Nosso Bar e treinamento. Insistiu no atendimento e na caneca gelada como diferencial e citou uma cervejaria local de Sorocaba como concorrente. Perguntou o custo médio de aluguel do ponto, que ficou sem resposta. Disse que a conversa fortaleceu a vontade de entrar na rede e quer começar 2027 procurando ponto.",
+      "objecoes": ["sem-valor-investimento"],
+      "proximoPasso": "Encontro presencial em Sorocaba em 6 ou 7 de janeiro (alternativa: dia 12); Antônio confirma a data quando voltar, em 4/01. Até lá a Paloma segue o contato pelo grupo. Lead pode levar um amigo próximo para a conversa.",
+      "videoUrl": "https://drive.google.com/file/d/11YqPUjYDG2xVasg6JmWeXT0aQ7dzqLLC/view"
     }
   ]
 }
