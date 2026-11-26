@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25",
+  "atualizadoEm": "2026-11-26",
   "fonte": "Transcrições do Teams (Drive · Reuniões Expansão)",
   "objecoesLegenda": {
     "repasse-sem-valor": "Valor do repasse ainda indefinido",
@@ -428,6 +428,23 @@
       "objecoes": ["sem-valor-investimento"],
       "proximoPasso": "Encontro presencial em Sorocaba em 6 ou 7 de janeiro (alternativa: dia 12); Antônio confirma a data quando voltar, em 4/01. Até lá a Paloma segue o contato pelo grupo. Lead pode levar um amigo próximo para a conversa.",
       "videoUrl": "https://drive.google.com/file/d/11YqPUjYDG2xVasg6JmWeXT0aQ7dzqLLC/view"
+    },
+    {
+      "dealId": "6b05115dd61ad9001f0dba96",
+      "lead": "Anderson Santana",
+      "cidade": "São Paulo",
+      "data": "2026-11-26",
+      "duracaoMin": 98,
+      "falaLeadPct": 27,
+      "conduzido": "Antônio (Expansão) · Paloma (SDR)",
+      "praca": "São Paulo · Vila Leopoldina (área livre, perto de onde ele mora)",
+      "capitalCitado": "Diz ter um teto de investimento; trabalha com os R$ 200 mil da página mais cerca de R$ 30 mil de capital de giro",
+      "interesse": "medio",
+      "perfil": "Mora na Barra Funda; vende patrocínios para transmissões de futebol e conteúdo digital. Perfil de vendas e consultoria, nunca teve loja física. É cliente da Germania há anos.",
+      "resumo": "Tentou contato pelo site uma vez, sem resposta, e voltou um mês depois. Recebeu a Vila Leopoldina, área ainda sem loja ao lado de onde mora e que ele conhece por já ter trabalhado com eventos na região. Chegou com perguntas anotadas: o que entra nos R$ 200 mil, lucro líquido (15% a 25%), payback (24 a 36 meses), capital de giro para 3 meses, contrato (3 anos, renovação automática), meta mínima (não há penalidade), responsabilidade por barril perdido, estoque parado e sazonalidade, retirada em Vinhedo e apoio com ponto e documentação. Recebeu estimativas de custo de chopeiras, câmara fria, cilindros, carro, fachada e reforma. Disse que o coração abraça a ideia, mas a planilha precisa fechar antes. A conexão dele caiu várias vezes por causa da chuva.",
+      "objecoes": ["pediu-numeros", "quer-visitar-loja"],
+      "proximoPasso": "Antônio enviar vídeos de lojas pelo WhatsApp corporativo. Lead montar a planilha de custos, caminhar pela Vila Leopoldina e conversar com três lojistas da rede. Segunda reunião depois de 10/12, quando ele volta de viagem a trabalho.",
+      "videoUrl": "https://drive.google.com/file/d/1mZQhSttuZYabpJkq3R2ccJVgABeu_zMe/view"
     }
   ]
 }
